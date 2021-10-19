@@ -13,4 +13,4 @@ require("./controllers/dessertController")(app);
 require("./controllers/drinkController")(app);
 require("./controllers/movieController")(app);
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
