@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "node": "node src/index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
